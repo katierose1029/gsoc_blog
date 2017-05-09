@@ -8,12 +8,14 @@ This post is my first post on my blog.  I would like to mention how excited I
 am to be researching Matplotlib Serialization with the developers of Matplotlib.
 The following links are some first readings, one including the enhancement
 in which I used to create my proposal:
-    * [MEP25][MEP25]
-    * [Mpld3 Quick Start][Mpld3 Quick Start]
-    * [Matplotlib Figure Serialization][Matplotlib Figure Serialization]
-    * [Pickle][Pickle]
-    * [Python Class JSON Serialization][Python Class JSON Serialization]
-    * [Serialization of a Python Object to JSON][Serialization of a Python Object to JSON]
+
+
+    - [MEP25][MEP25]
+    - [Mpld3 Quick Start][Mpld3 Quick Start]
+    - [Matplotlib Figure Serialization][Matplotlib Figure Serialization]
+    - [Pickle][Pickle]
+    - [Python Class JSON Serialization][Python Class JSON Serialization]
+    - [Serialization of a Python Object to JSON][Serialization of a Python Object to JSON]
 
 When I get in contact with mentors directly, I'm sure that I will have more of
 an understanding with what I will be working with.  Nonetheless, I am ecstatic
