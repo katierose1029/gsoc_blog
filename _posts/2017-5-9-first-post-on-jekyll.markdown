@@ -8,6 +8,7 @@ This post is my first post on my blog.  I would like to mention how excited I
 am to be researching Matplotlib Serialization with the developers of Matplotlib.
 The following links are some first readings, one including the enhancement
 in which I used to create my proposal:
+
     * [MEP25][http://matplotlib.org/devel/MEP/MEP25.html]
     * [Mpld3 Quick Start][https://mpld3.github.io/quickstart.html]
     * [Matplotlib Figure Serialization][http://matplotlib.1069221.n5.nabble.com/matplotlib-figure-serialization-td18587.html]
