@@ -8,7 +8,7 @@ This is the base Jekyll theme. You can find out more info about customizing your
 
 You can find the source code for the Jekyll new theme at:
 {% include icon-github.html username="jekyll" %} /
-[midnight](https://github.com/pages-themes/midnight)
+[minima](https://jekyll.github.io/minima/)
 
 You can find the source code for Jekyll at
 {% include icon-github.html username="jekyll" %} /
