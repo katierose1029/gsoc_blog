@@ -1,9 +1,3 @@
----
-layout: page
-title: About
-permalink: /about/
----
-
 # Matplotlib Serialization & PythreeJS
 ### Kaitlyn Chait
 
