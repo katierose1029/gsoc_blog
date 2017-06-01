@@ -10,6 +10,7 @@ You can find the source code for the Jekyll new theme at:
 {% include icon-github.html username="jekyll" %} /
 [minima](https://jekyll.github.io/minima/)
 
+
 ## Contents
     1. Opening Details
         * Contact Information
