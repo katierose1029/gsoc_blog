@@ -23,7 +23,7 @@ permalink: /about/
         * Phase 3
     4. Why This Project?
     5. Appendix
-________________________________________________________________________________
+
 
 ## Opening Details
 
