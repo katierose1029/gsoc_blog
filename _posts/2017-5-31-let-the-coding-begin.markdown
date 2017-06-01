@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Let the Coding Begin"
-date: 2017-05-11
+date: 2017-05-31
 categories: jekyll update
 ---
 
