@@ -4,10 +4,13 @@ title: About
 permalink: /about/
 ---
 
-# Matplotlib Serialization & PythreeJS
-### Kaitlyn Chait
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
+You can find the source code for the Jekyll new theme at:
+{% include icon-github.html username="jekyll" %} /
+[minima](https://jekyll.github.io/minima/)
 
+<<<<<<< HEAD
 ## Contents
     1. Opening Details
         * Contact Information
@@ -312,3 +315,8 @@ this proposal.
 * [ThreeJS](https://threejs.org/)
 
 ________________________________________________________________________________
+=======
+You can find the source code for Jekyll at
+{% include icon-github.html username="jekyll" %} /
+[jekyll](https://github.com/jekyll/jekyll)
+>>>>>>> parent of cd43394... updated about page with proposal
