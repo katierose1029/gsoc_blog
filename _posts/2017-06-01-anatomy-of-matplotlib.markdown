@@ -10,3 +10,5 @@ Tasks to be Completed 06/01/2017:
 
 * [Anatomy of Matplotlib](https://github.com/WeatherGod/AnatomyOfMatplotlib)
 * [traitlets documentation](http://traitlets.readthedocs.io/en/stable/index.html)
+
+* [katierose1029/gsoc_work](https://github.com/katierose1029/gsoc_work)
