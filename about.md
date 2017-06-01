@@ -10,7 +10,6 @@ You can find the source code for the Jekyll new theme at:
 {% include icon-github.html username="jekyll" %} /
 [minima](https://jekyll.github.io/minima/)
 
-<<<<<<< HEAD
 ## Contents
     1. Opening Details
         * Contact Information
@@ -26,7 +25,6 @@ You can find the source code for the Jekyll new theme at:
         * Phase 3
     4. Why This Project?
     5. Appendix
-
 
 ## Opening Details
 
@@ -315,8 +313,7 @@ this proposal.
 * [ThreeJS](https://threejs.org/)
 
 ________________________________________________________________________________
-=======
+
 You can find the source code for Jekyll at
 {% include icon-github.html username="jekyll" %} /
 [jekyll](https://github.com/jekyll/jekyll)
->>>>>>> parent of cd43394... updated about page with proposal
