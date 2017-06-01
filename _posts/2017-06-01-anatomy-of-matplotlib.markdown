@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Anatomy of Matplotlib"
-date: 2017-05-11
+date: 2017-06-01
 categories: jekyll update
 ---
 Tasks to be Completed 06/01/2017:
