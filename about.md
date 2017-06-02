@@ -1,11 +1,8 @@
 ---
 layout: page
-title: About
+title: Proposal
 permalink: /about/
 ---
-
-# Proposal
-
 ## Contents
     1. Opening Details
         * Contact Information
