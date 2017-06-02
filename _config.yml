@@ -28,6 +28,8 @@ github_username:  katierose1029
 
 # Build settings
 markdown: kramdown
+kramdown:
+    input: GFM
 theme: minima
 gems:
   - jekyll-feed

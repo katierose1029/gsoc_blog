@@ -5,11 +5,8 @@ date: 2017-06-01
 categories: jekyll update
 ---
 Tasks to be Completed 06/01/2017:
-* [X] Lessons from Anatomy of Matplotlib
-* [ ] Read through traitlets documentation
-
-* [Anatomy of Matplotlib](https://github.com/WeatherGod/AnatomyOfMatplotlib)
-* [traitlets documentation](http://traitlets.readthedocs.io/en/stable/index.html)
+1. Lessons from [Anatomy of Matplotlib](https://github.com/WeatherGod/AnatomyOfMatplotlib)
+2. Read through [traitlets documentation](http://traitlets.readthedocs.io/en/stable/index.html)
 
 Things I learned:
 1. How to properly graph in Matplotlib
@@ -18,8 +15,7 @@ Things I learned:
 3. load% inline magic
 4. print function for python 2 & 3
 
-Things I do not understand:
-1. workings behind Artist
+I did not understand how to work with Artist quite yet
 
 "The Views are the ensemble of each individual Artist, which are responsible for producing the final image based on the model. The Controller will be the Controller object managing its set of Artist objects.
 The Controller must be able to export the information that it’s carrying about the figure on command, perhaps via a to_json method or similar. "

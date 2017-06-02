@@ -5,8 +5,8 @@ date: 2017-06-02
 categories: jekyll update
 ---
 Tasks to be Completed 06/02/2017:
-* [ ] [Artist Tutorial][Artist Tutorial]
-* [ ] Read through [traitlets documentation][traitlets documentation]
+1. [Artist Tutorial][Artist Tutorial]
+2. Read through [traitlets documentation][traitlets documentation]
 
 [Artist Tutorial]: http://matplotlib.org/users/artists.html
 [traitlets documentation]: http://traitlets.readthedocs.io/en/stable/index.html
