@@ -5,8 +5,8 @@ date: 2017-06-01
 categories: jekyll update
 ---
 Tasks to be Completed 06/01/2017:
-[x] Lessons from Anatomy of Matplotlib
-[ ] Read through traitlets documentation
+-[x] Lessons from Anatomy of Matplotlib
+-[] Read through traitlets documentation
 
 * [Anatomy of Matplotlib](https://github.com/WeatherGod/AnatomyOfMatplotlib)
 * [traitlets documentation](http://traitlets.readthedocs.io/en/stable/index.html)
