@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "traitlets"
+title: "Traitlets"
 date: 2017-06-05
 categories: jekyll update
 ---
