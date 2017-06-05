@@ -10,3 +10,8 @@ Tasks to be Completed 06/02/2017:
 
 [Artist Tutorial]: http://matplotlib.org/users/artists.html
 [traitlets documentation]: http://traitlets.readthedocs.io/en/stable/index.html
+
+Today my mentor and myself went over the following:
+1. Fundamentals of Traitlets
+2. Decorators
+3. How to start going about serializing Artist
