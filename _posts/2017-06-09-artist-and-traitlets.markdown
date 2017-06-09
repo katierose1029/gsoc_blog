@@ -45,4 +45,5 @@ This is just a basic outline of what is to be done.
 _________________________________________________________________________
 
 1. Create Artist directory
-2. create trait scripts with respective classes
+2. create TraitType for each attribute
+3. Artist HasTraits
