@@ -44,6 +44,19 @@ This is just a basic outline of what is to be done.
 
 _________________________________________________________________________
 
+Future Plans:
 1. Create Artist directory
 2. create TraitType for each attribute
 3. Artist HasTraits
+
+_________________________________________________________________________
+
+Today Accomplishments:
+1. created artist directory
+2. created tester.ipynb for graph testing purposes
+3. tested artist.py migration and received a plot
+    * [altered files so that artist from directory is properly imported][gitmlp]
+    * [tester.ipynb][tester]
+
+[gitmlp]:https://github.com/katierose1029/matplotlib/commit/9b3ff6e762b23995b6dd3ad2846e4e4f0229971c
+[tester]:https://github.com/katierose1029/gsoc_work/blob/master/tester.ipynb
