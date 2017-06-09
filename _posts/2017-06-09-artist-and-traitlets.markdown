@@ -41,3 +41,8 @@ My Mentor and I had discussed:
 3. observe transform: type=change therefore observing the change in the transform attribute
 
 This is just a basic outline of what is to be done.
+
+_________________________________________________________________________
+
+1. Create Artist directory
+2. create trait scripts with respective classes
