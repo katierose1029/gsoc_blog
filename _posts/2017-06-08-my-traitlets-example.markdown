@@ -15,6 +15,7 @@ Next Task:
     * this will be the first of other traits implemented in `Artist`
     * `Artist` mainly contains set and get methods; by creating traits, in theory we will
     not need them anymore
+    * @property to replace getters and setters
 
 Note to self: Think about the `Artist Inspector` & whether we have consider altering it or not
 
