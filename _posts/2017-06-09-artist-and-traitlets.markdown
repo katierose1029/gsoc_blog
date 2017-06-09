@@ -55,7 +55,7 @@ Today Accomplishments:
 1. created artist directory
 2. created tester.ipynb for graph testing purposes
 3. tested artist.py migration and received a plot
-    * [altered files so that artist from directory is properly imported][gitmlp]
+    * [successful is making graph after migration][gitmlp]
     * [tester.ipynb][tester]
 
 [gitmlp]:https://github.com/katierose1029/matplotlib/commit/9b3ff6e762b23995b6dd3ad2846e4e4f0229971c
