@@ -13,6 +13,10 @@ Note: Minor set back because my jupyter notebook kernel hasn't been working corr
 Next Task:
 1. making a Transform trait
     * this will be the first of other traits implemented in `Artist`
+    * `Artist` mainly contains set and get methods; by creating traits, in theory we will
+    not need them anymore
+
+Note to self: Think about the `Artist Inspector` & whether we have consider altering it or not
 
 [Defining New Trait Types][dntt]
 
