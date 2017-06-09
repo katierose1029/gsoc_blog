@@ -1,3 +1,4 @@
+---
 layout: post
 title: "My Traitlets Example"
 date: 2017-06-08
