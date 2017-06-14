@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Artist and Traitlets"
-date: 2017-06-09
+title: "Continuing Axes Trait"
+date: 2017-06-14
 categories: jekyll update
 ---
 
