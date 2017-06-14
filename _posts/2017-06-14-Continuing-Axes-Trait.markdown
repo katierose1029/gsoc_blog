@@ -6,7 +6,8 @@ categories: jekyll update
 ---
 
 Tasks for 6/14/17:
-1. Continue working on Artist.axes
+1. determine which classes need a new trait altogether
+2. work on Axes
 
 ~~~
 class Artist(HasTraits):
