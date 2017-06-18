@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Artist with Traits cont."
-date: 2017-06-15
+date: 2017-06-18
 categories: jekyll update
 ---
 
