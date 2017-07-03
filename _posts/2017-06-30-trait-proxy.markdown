@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Trait Proxy"
+title: "Trait Proxy cont."
 date: 2017-06-30
 categories: jekyll update
 ---
