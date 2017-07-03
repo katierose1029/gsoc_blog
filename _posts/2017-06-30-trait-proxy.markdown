@@ -13,6 +13,7 @@ _______________________________________________________________________________
 #create descriptor that will set a defaut value only on
 #instances of MyClass
 
+~~~
 class MyBaseClass(HasDescriptors):
 
   def __init__(self):
@@ -70,3 +71,5 @@ Classes own descriptors
 Subclasses that know of descriptors
 
 Instances that know of descriptors
+
+~~~
