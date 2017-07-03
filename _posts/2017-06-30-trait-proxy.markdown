@@ -1,3 +1,15 @@
+---
+layout: post
+title: "Trait Proxy"
+date: 2017-06-30
+categories: jekyll update
+---
+
+Tasks for 6/30/17:
+    1. Descriptors
+    2. Speak with Mentor on next plan for project
+
+_______________________________________________________________________________
 #create descriptor that will set a defaut value only on
 #instances of MyClass
 
