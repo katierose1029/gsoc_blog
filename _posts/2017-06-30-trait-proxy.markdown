@@ -58,10 +58,6 @@ class MySubclass(MyClass):
 s = MySubclass()
 s.d # raises an error
 
-
-
-
-
 # - - - - - - - - - - - -
 
 Descriptors
