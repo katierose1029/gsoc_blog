@@ -6,4 +6,4 @@ categories: jekyll update
 ---
 
 Tasks for 6/29/17:
-    1. Read through notes sent by mentor on Trait Proxy
+1. Read through notes sent by mentor on Trait Proxy

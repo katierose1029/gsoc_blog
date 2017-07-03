@@ -6,5 +6,5 @@ categories: jekyll update
 ---
 
 Tasks for 6/19/17:
-    1. Continue `Artist(HasTraits)`
-    2. Start thinking about new TraitType functions for attributes
+1. Continue `Artist(HasTraits)`
+2. Start thinking about new TraitType functions for attributes
