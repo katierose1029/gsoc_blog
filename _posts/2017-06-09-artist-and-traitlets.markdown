@@ -56,7 +56,7 @@ Today Accomplishments:
 2. created tester.ipynb for graph testing purposes
 3. tested artist.py migration and received a plot
     * [successful is making graph after migration][gitmlp]
-    * [tester.ipynb][tester]
+    * [mpl_tester.ipynb][tester]
 
 [gitmlp]:https://github.com/katierose1029/matplotlib/commit/9b3ff6e762b23995b6dd3ad2846e4e4f0229971c
-[tester]:https://github.com/katierose1029/gsoc_work/blob/master/tester.ipynb
+[tester]:https://github.com/katierose1029/gsoc_work/blob/master/mpl_tester.ipynb
