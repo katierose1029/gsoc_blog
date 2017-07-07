@@ -38,7 +38,6 @@ Notes from Mentor Call:
     * merge x then y then z in order for upstream to be functional at all times
 	* create branch for feature x
 	   * create branch for feature y from feature x ... and so on
-
 9. rebase
     * Let's say we have features x and y; x is branched off of master and y is branched from x (x is required for y)
     * Now let's say that master/x gets ahead of y we can rebase x so that the commits on y are 'on top of' the commits of x therefore not causing a merge error  
