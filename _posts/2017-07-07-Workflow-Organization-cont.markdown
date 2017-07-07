@@ -24,12 +24,15 @@ stale_callback = None
 
 _axes = None
     'matplotlib.axes.Axes'
+    Instance
 
 figure = None
     'matplotlib.figure.Figure'
+    Instance
 
 _transform = None
     'matplotlib.transforms.Transform'
+    Instance
 
 _transformSet = False
     Boolean
@@ -45,6 +48,7 @@ _alpha = None
 
 clipbox = None
     accepts a 'matplotlib.transforms.Bbox' instance
+    Instance
 
 _clippath = None
     accepts either 'matplotlib.patches.Patch' 'matplotlib.path.Path' 'matplotlib.transforms.Transform'
@@ -57,27 +61,59 @@ _label = ''
     Unicode
 
 _picker = None
+    Note sure what to do?
+
 _contains = None
+    accepts a callable function
+
 _rasterized = None
+    ACCEPTS: [True | False | None]
+
 _agg_filter = None
+    set agg_filter function
+
 _mouseover = False
+    Boolean
+
 eventson = False
+    Boolean
+
 _oid = 0
     Int
     Observer Id
+
 _proboservers = {}
     Dict
     a dict from oids to funcs
+
 _url = None
+    url string
+    Unicode
+
 _gid = None
+    the (group) id string for the artist
+    Unicode
+
 _snap = None
-_sketch = ?
-_path_effects = ?
-_sticky edges = _XYPair([], [])
+    ACCEPTS: [True | False | None]
+
+_sketch = rcParams['path.sketch']
+    3 - Tuple: (scale : float, optional, length : float, optional, randomness : float, optional)
+
+_path_effects = rcParams['path.effects']
+    List of instances of matplotlib.patheffect._Base class or its derivatives
+
+_sticky_edges = _XYPair([], [])
     Question -> Do I make trait?
+    This attribute cannot be assigned to; however, the `x` and `y` lists can be modified in place as needed.
+    artist.sticky_edges.x[:] = (xmin, xmax
+    artist.sticky_edges.y[:] = (ymin, ymax)
 ~~~
 
 2. Determine which attributes can be represented by traitlets already implemented
     * Is it mandatory to implement some attributes as their own trait types
 
-3.
+3. List of attributes that can be represented as traits from traitlets; no new TraitTypes need to be created
+~~~
+
+~~~
