@@ -17,7 +17,6 @@ Project Development Steps:
 * List of attributes: 	
 
 ~~~
-
 _stale = True
     Boolean
 
@@ -108,7 +107,7 @@ _path_effects = rcParams['path.effects']
 _sticky_edges = _XYPair([], [])
     Question -> Do I make trait?
     This attribute cannot be assigned to; however, the `x` and `y` lists can be modified in place as needed.
-    artist.sticky_edges.x[:] = (xmin, xmax
+    artist.sticky_edges.x[:] = (xmin, xmax)
     artist.sticky_edges.y[:] = (ymin, ymax)
 ~~~
 
@@ -118,5 +117,36 @@ _sticky_edges = _XYPair([], [])
 * List of attributes that can be represented as traits from traitlets; no new TraitTypes need to be created
 
 ~~~
+_stale -> Boolean
+_axes -> Instance
+figure -> Instance
+_transform -> Instance
+_transformSet -> Boolean
+_visible -> Boolean
+_animated -> Boolean
+_alpha -> Float
+clipbox -> Instance
+_clipon -> Boolean
+_label -> Unicode
+_mouseover -> Boolean
+eventson -> Boolean
+_oid -> Int
+_proboservers -> Dict
+_url -> Unicode
+_gid -> Unicode
+_sketch -> Tuple
+~~~
 
+* List of attributes that either should be their own traits or I am not sure how to go about making traits of them
+
+~~~
+stale_callback
+_clippath
+_picker
+_contains -> could be a list ?
+_rasterized
+_agg_filter
+_snap
+_path_effects
+_sticky_edges
 ~~~
