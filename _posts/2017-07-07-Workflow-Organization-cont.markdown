@@ -140,13 +140,27 @@ _sketch -> Tuple
 * List of attributes that either should be their own traits or I am not sure how to go about making traits of them
 
 ~~~
-stale_callback
-_clippath
-_picker
+stale_callback -> Callable Trait type
+_clippath ->
+_picker -> Union Trait
+    Union(Float, Boolean, Callable, default_value = None, allow_none = True)
 _contains -> could be a list ?
-_rasterized
-_agg_filter
-_snap
-_path_effects
-_sticky_edges
+_rasterized ->
+_agg_filter ->
+_snap -> Boolean(allow_none = True)
+    snap = Perishable(Boolean(allow_none = True, default_value = None))
+_path_effects ->
+_sticky_edges ->
 ~~~
+
+Git Stuff:
+[Practice Git Repo][pgr]
+1. rebase from command line
+2. merge tool
+    * current state of parent & child branch
+    * combined state before they diverge
+    * state which you want the branch to be in
+
+    * visual interface for looking at those states and determining which I want the current state to be
+
+[pgr]:https://github.com/katierose1029/testing
