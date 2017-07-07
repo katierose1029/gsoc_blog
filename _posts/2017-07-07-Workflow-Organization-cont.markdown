@@ -15,7 +15,9 @@ Matplotlib a lot more understandable & organized
 
 Project Development Steps:
 1. List of attributes: 	
+
 ~~~
+
 _stale = True
     Boolean
 
@@ -114,6 +116,3 @@ _sticky_edges = _XYPair([], [])
     * Is it mandatory to implement some attributes as their own trait types
 
 3. List of attributes that can be represented as traits from traitlets; no new TraitTypes need to be created
-~~~
-
-~~~
