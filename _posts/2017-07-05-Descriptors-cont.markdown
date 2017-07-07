@@ -6,8 +6,7 @@ categories: jekyll update
 ---
 
 Tasks for 7/05/17:
-1. Descriptors
-2. Attempt to understand ties with Trait Proxy
+1. Descriptors continued 
 
 [My Descriptors Example][myex]
 [Mentor Files: How Not To Implement Stale and PChanged][ex]
