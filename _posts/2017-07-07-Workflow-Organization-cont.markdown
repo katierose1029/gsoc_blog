@@ -14,7 +14,7 @@ Matplotlib a lot more understandable & organized
 
 
 Project Development Steps:
-1. List of attributes: 	
+* List of attributes: 	
 
 ~~~
 
@@ -112,7 +112,11 @@ _sticky_edges = _XYPair([], [])
     artist.sticky_edges.y[:] = (ymin, ymax)
 ~~~
 
-2. Determine which attributes can be represented by traitlets already implemented
+* Determine which attributes can be represented by traitlets already implemented
     * Is it mandatory to implement some attributes as their own trait types
 
-3. List of attributes that can be represented as traits from traitlets; no new TraitTypes need to be created
+* List of attributes that can be represented as traits from traitlets; no new TraitTypes need to be created
+
+~~~
+
+~~~
