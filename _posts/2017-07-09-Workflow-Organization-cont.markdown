@@ -12,3 +12,4 @@ Tasks for 7/09/17:
 
 * When updating MPL a bug came up
     * Note: the bug was fixed
+* Installing artist-dev branch of MPL
