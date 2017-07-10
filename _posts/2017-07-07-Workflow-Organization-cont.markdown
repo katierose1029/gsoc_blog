@@ -98,6 +98,13 @@ _gid = None
 _snap = None
     ACCEPTS: [True | False | None]
 
+"""3-tuple (scale, length or 128.0, randomness or 16.0):
+scale: amplitude of the wiggle perpendicular to the
+  source line
+length: length of the wiggle along the line
+randomness: scale factor by which the length is
+  shrunken or expanded
+"""
 _sketch = rcParams['path.sketch']
     3 - Tuple: (scale : float, optional, length : float, optional, randomness : float, optional)
 
