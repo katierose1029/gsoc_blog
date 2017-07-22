@@ -29,4 +29,5 @@ Questions to ask:
 * question the picker: it can be either a [None|float|boolean|callable] yet there is no logic like transform or clippath
     * in traits, does this need to be like clippath?
     * checking for either none float, boolean, callable?
-    * contains accepts a callable function 
+    * contains accepts a callable function
+* method resolution order
