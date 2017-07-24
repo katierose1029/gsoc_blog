@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Clippath Trait"
+date: 2017-07-24
+categories: jekyll update
+---
+
+Tasks for 7/24/17:
+1. Clippath
