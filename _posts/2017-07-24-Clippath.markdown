@@ -6,4 +6,13 @@ categories: jekyll update
 ---
 
 Tasks for 7/24/17:
-1. Clippath
+1. Clippath Traits
+
+Note: Mentor said *Clippath* should be a *Union* Trait but I am going to disagree.
+Reason being that *Clippath* is not a union of instances.
+*Clippath* can take in either a *matplotlib.patches.Patch* or *matplotlib.path.Path*
+If the input value for transform is *True* when setting the value of *Clippath*
+the logic determine the value is different.
+
+Note Revised: I think this is a *Union*. This needs the TransformTrait in order
+to handle the *None* logic.
