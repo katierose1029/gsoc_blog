@@ -103,4 +103,8 @@ RuntimeError: Python is not installed as a framework. The Mac OS X backend will 
         * this does not work finding another way
     * [OSX config][osx]
 
+* In cross validating I could not determine what was being cross validated so I am going to go back & inset names of attributes
+    * same with observe
+* **RecursionError: maximum recursion depth exceeded**
+
 [osx]:https://stackoverflow.com/questions/21784641/installation-issue-with-matplotlib-python
