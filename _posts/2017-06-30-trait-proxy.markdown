@@ -6,5 +6,5 @@ categories: jekyll update
 ---
 
 Tasks for 6/30/17:
-1. Descriptors
+1. `Descriptors`
 2. Speak with Mentor on next plan for project

@@ -6,4 +6,4 @@ categories: jekyll update
 ---
 
 Tasks for 7/22/17:
-1. Complete TransformTrait & clippath
+1. Complete `TransformTrait` & `clippath`

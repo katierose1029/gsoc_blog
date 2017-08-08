@@ -7,14 +7,14 @@ categories: jekyll update
 
 Tasks for 6/14/17:
 1. determine which classes need a new trait altogether
-2. work on Axes
+2. work on `Axes`
 
-Instead of using TraitType, my mentor suggested I use TypeCast:
+Instead of using `TraitType`, my mentor suggested I use `TypeCast`:
 * type checking occurs in `TypeCast.validate`
     * builtin validation logic
     * `klass = <whatever type you want>`
-    * super(Axes, self).validate(obj, value)
-    
+    * `super(Axes, self).validate(obj, value)``
+
 ~~~
 class AxesTrait(TypeCast):
 

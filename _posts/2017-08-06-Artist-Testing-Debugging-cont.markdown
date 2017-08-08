@@ -6,8 +6,8 @@ categories: jekyll update
 ---
 
 Tasks for 8/06/17:
-1. Testing Artist class with Traits using Ipython
-    * fixed stale recursion error yesterday so debugging should be smooth sailing
+1. Testing `Artist` class with Traits using `Ipython`
+    * fixed `stale` recursion error yesterday so debugging should be smooth sailing
 
 Notes:
 
@@ -54,7 +54,7 @@ RecursionError: maximum recursion depth exceeded while calling a Python object
 
 AttributeError: can't set attribute
 ~~~
-    * commented out *__init__* function
+    * commented out `__init__` function
 
 ~~~
 ~/anaconda3/envs/mpl-testing/lib/python3.6/site-packages/traitlets/traitlets.py in __init__(self, *args, **kwargs)
@@ -66,10 +66,10 @@ AttributeError: can't set attribute
 
 AttributeError: 'Rectangle' object has no attribute 'hold_trait_notifications'
 ~~~
-    * error I was receiving before recursion stale error
-    * I think this error is being caused by the clippath
+    * error I was receiving before recursion `stale` error
+    * I think this error is being caused by the `clippath`
 
-Purpose of Clippath (as said by Thomas):
+Purpose of `Clippath` (as said by Thomas):
 * it is the path that is used to clip the artist when it is drawn; instead of being careful to truncate the data at the edges, we just render everything and then clip to the axes at draw time
 * [Example 1][ex1]
 

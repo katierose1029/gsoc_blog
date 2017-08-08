@@ -6,4 +6,4 @@ categories: jekyll update
 ---
 Tasks for 6/28/17:
 1. Continue `Artist(HasTraits)`
-2. Patch & Patch
+2. `Patch` & `Patch`

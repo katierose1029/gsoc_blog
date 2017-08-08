@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 Tasks for 7/04/17:
-1. Descriptors
+1. `Descriptors`
 2. Attempt to understand ties with Trait Proxy
 
 [My Descriptors Example][myex]

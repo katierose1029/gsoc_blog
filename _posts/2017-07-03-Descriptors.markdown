@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 Tasks for 7/03/17:
-1. Descriptors
+1. `Descriptors`
 2. Create Example based off of Mentor Notes: with explanations
 
 [Descriptors Notebook][dn]

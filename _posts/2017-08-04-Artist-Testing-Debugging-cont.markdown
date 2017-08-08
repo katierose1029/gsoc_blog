@@ -6,11 +6,11 @@ categories: jekyll update
 ---
 
 Tasks for 8/04/17:
-1. Testing Artist class with Traits using Ipython
+1. Testing `Artist` class with Traits using `Ipython`
 
 Notes:
 
-* Error with Axes:
+* Error with `Axes`:
 ~~~
 In [5]: import matplotlib.pyplot as plt
 ---------------------------------------------------------------------------
@@ -99,12 +99,12 @@ RuntimeError                              Traceback (most recent call last)
 
 RuntimeError: Python is not installed as a framework. The Mac OS X backend will not be able to function correctly if Python is not installed as a framework. See the Python documentation for more information on installing Python as a framework on Mac OS X. Please either reinstall Python as a framework, or try one of the other backends. If you are using (Ana)Conda please install python.app and replace the use of 'python' with 'pythonw'. See 'Working with Matplotlib on OSX' in the Matplotlib FAQ for more information.
 ~~~
-    * conda install pythonw.app
+    * `conda install pythonw.app`
         * this does not work finding another way
     * [OSX config][osx]
 
 * In cross validating I could not determine what was being cross validated so I am going to go back & inset names of attributes
     * same with observe
-* **RecursionError: maximum recursion depth exceeded**
+* `RecursionError: maximum recursion depth exceeded`
 
 [osx]:https://stackoverflow.com/questions/21784641/installation-issue-with-matplotlib-python

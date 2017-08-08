@@ -10,7 +10,7 @@ Tasks for 7/07/17:
 2. Create breakdown of small steps for success
 
 Accomplishing this task will allow for testing/debugging/contributing to
-Matplotlib a lot more understandable & organized
+`Matplotlib` a lot more understandable & organized
 
 
 Project Development Steps:

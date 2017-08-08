@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 Tasks for 8/07/17:
-1. Debugging Rectangle hold_trait_notifications error
+1. Debugging `Rectangle` `hold_trait_notifications` error
 
 **Error Traceback:**
 ~~~
@@ -86,8 +86,8 @@ AttributeError: 'Rectangle' object has no attribute 'hold_trait_notifications'
 Mentor Mentions:
 * problem isn't with traits
     * problem is inheritance/construction of the Rectangle
-* which *Rectangle* am I importing?
-    * rectangle from *_traits* or base library?
+* which `Rectangle` am I importing?
+    * rectangle from `_traits` or base library?
 
 ~~~
 In [4]: Rectangle
@@ -189,21 +189,21 @@ Out[8]: matplotlib.patches.Rectangle
 ~~~
 
 * **Good News Everyone, my mentor knows what is going on!!**
-    * rectangle isn't using *super*
-    * his word exactly: The object referred to by self when being passed to *Artist.__init__* is not an instance of *_traits.artist.Artist* and thus does not have *hold_trait_notifications*
+    * rectangle isn't using `super`
+    * his word exactly: The object referred to by self when being passed to `Artist.__init__` is not an instance of `_traits.artist.Artist` and thus does not have `hold_trait_notifications`
     * monkey patching is most likely what is causing this problem
 
 Questions for Mentor later:
-1. Due to the underscore convention do you also think there is no access to *_traits/artist*?
-    * attempt: *_traits* -> *traits*
+1. Due to the underscore convention do you also think there is no access to `_traits/artist`?
+    * attempt: `_traits` -> `traits`
         * this attempt did not work
 2. Monkey Patching: checking correctness of Patching
 ~~~
 _artist.Artist:  <class 'matplotlib.artist.Artist'>
 traits: _artist.Artist:  <class 'matplotlib._traits.artist.Artist'>
 ~~~
-    * in *_traits/artist* does the *_artist* have a true underscore convention?
-* Note: making a successful __init__(self) will allow `_traitlets.artist.Artist` to be used/tested in other scripts where an initiation occurs
+    * in `_traits/artist` does the `_artist` have a true underscore convention?
+* Note: making a successful `__init__(self)` will allow `_traitlets.artist.Artist` to be used/tested in other scripts where an initiation occurs
 
 
 

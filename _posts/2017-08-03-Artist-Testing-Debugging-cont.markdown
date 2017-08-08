@@ -6,12 +6,12 @@ categories: jekyll update
 ---
 
 Tasks for 8/03/17:
-1. Testing Artist class with Traits using Ipython
+1. Testing `Artist` class with Traits using `Ipython`
 
 Notes:
-* *picker* contained more arguments than expected
-* *Any* trait had to be imported
-* *default_value* of *Tuple* in *sketch* turned out to be *None*
+* `picker` contained more arguments than expected
+* `Any` trait had to be imported
+* `default_value` of `Tuple` in `sketch` turned out to be `None`
 
 ~~~
 _traits/artist.py
@@ -28,7 +28,7 @@ def _sketch_default(self):
     return rcParams['path.sketch']
 ~~~
 
-* *@observe("name_of_attribute", type=change)*
+* `@observe("name_of_attribute", type=change)`
     * change is not being recognized
 ~~~
 _traits/artist.py
@@ -36,11 +36,11 @@ _traits/artist.py
 @observe("name_of_attribute", type="change")
 ~~~
 
-* Lines of code worked in *Ipython Terminal*:
-    * [1]: *import matplotlib._traits.artist*
-    * [2]: *import matplotlib._traits.traits*
+* Lines of code worked in `Ipython Terminal`:
+    * `[1]: import matplotlib._traits.artist`
+    * `[2]: import matplotlib._traits.traits`
 
 * Creating an instance of Artist has allowed other errors to come up:
-    * *path_effects=List(Instance('matplotlib.patheffects._Base'), default_value=rcParams['path.effects'])*
-        * *_Base* is not a module
-        * trying to see if by getting rid of *_Base* can I fix the problem?
+    * `path_effects=List(Instance('matplotlib.patheffects._Base'), default_value=rcParams['path.effects'])`
+        * `_Base` is not a module
+        * trying to see if by getting rid of `_Base` can I fix the problem?

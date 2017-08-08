@@ -7,7 +7,7 @@ categories: jekyll update
 
 Tasks for 6/15/17:
 1. Start Skeleton for `Artist(HasTraits)`
-2. Figure out what attributes need to be TraitType
+2. Figure out what attributes need to be `TraitType`
 
 ~~~
 class Artist(HasTraits):

@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 Tasks for 6/29/17:
-1. Read through notes sent by mentor on Trait Proxy, Property Changes & Staleness
+1. Read through notes sent by mentor on `TraitProxy`, Property Changes & Staleness
 
 ### Notes from Mentor:
 On Property Changes and Staleness

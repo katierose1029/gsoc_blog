@@ -6,5 +6,5 @@ categories: jekyll update
 ---
 
 Tasks for 8/01/17:
-1. Testing Artist class with Traits using a Jupyter Notebook
-    * MPL has not been working as expected therefore delay in debugging
+1. Testing `Artist` class with Traits using a `Jupyter Notebook`
+    * `Matplotlib` has not been working as expected therefore delay in debugging

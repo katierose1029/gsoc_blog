@@ -5,8 +5,8 @@ date: 2017-06-09
 categories: jekyll update
 ---
 Tasks for 6/9/17:
-1. Look at the getters and setters in Artist module
-2. Come up with some sort of pseudo code or strategy to converting them in terms of Traitlets
+1. Look at the getters and setters in `Artist` module
+2. Come up with some sort of pseudo code or strategy to converting them in terms of `Traitlets`
 
 i.e.: How do we convert these functions in terms of transform and traitlets
 ~~~
@@ -36,25 +36,25 @@ def get_transform(self):
 ~~~
 
 My Mentor and I had discussed:
-1. transform default value: generates a default value for the transform attribute in Artist
-2. transform validate: validate the transform attribute
-3. observe transform: type=change therefore observing the change in the transform attribute
+1. `transform` default value: generates a default value for the transform attribute in `Artist`
+2. `transform` validate: validate the transform attribute
+3. observe `transform`: `type=change` therefore observing the change in the transform attribute
 
 This is just a basic outline of what is to be done.
 
 _________________________________________________________________________
 
 Future Plans:
-1. Create Artist directory
-2. create TraitType for each attribute
-3. Artist HasTraits
+1. Create `Artist` directory
+2. create `TraitType` for each attribute
+3. `Artist(HasTraits)`
 
 _________________________________________________________________________
 
 Today Accomplishments:
-1. created artist directory
-2. created tester.ipynb for graph testing purposes
-3. tested artist.py migration and received a plot
+1. created `artist` directory
+2. created `tester.ipynb` for graph testing purposes
+3. tested `artist.py` migration and received a plot
     * [successful is making graph after migration][gitmlp]
     * [mpl_tester.ipynb][tester]
 

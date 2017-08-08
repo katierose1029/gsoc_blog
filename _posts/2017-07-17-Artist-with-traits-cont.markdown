@@ -6,5 +6,5 @@ categories: jekyll update
 ---
 
 Tasks for 7/17/17:
-1. Continue Artist with Traits
-2. Configure development branch origin/artist-dev with upstream/traitlets branch 
+1. Continue `Artist` with `Traits`
+2. Configure development branch `origin/artist-dev` with `upstream/traitlets` branch 
