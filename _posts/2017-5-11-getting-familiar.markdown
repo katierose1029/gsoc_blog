@@ -7,8 +7,8 @@ categories: jekyll update
 
 Since last posting here, I have asked the community on Gitter where I should start researching before the coding period begins.
 I was given a small check list of two things to complete:
-1. Install a developers version of matplotlib and traitlets
-2. Become familiar with traitlets
+1. Install a developers version of `matplotlib` and `traitlets`
+2. Become familiar with `traitlets`
 
 In doing this, I created a repo called gsoc_work which will be used for my own testing
 and exploring purposes.
