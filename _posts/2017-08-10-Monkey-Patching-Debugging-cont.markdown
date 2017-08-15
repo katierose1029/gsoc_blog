@@ -13,3 +13,6 @@ Tasks for 8/10/17:
 * first time an instance of `Artist` gets created should be long after we have monkey patched, and probably is caused by user interaction
 * you don't import `_traits.artist` then no monkey patch occurs and the library remains unaltered
     * this was my speculation after some tests yesterday
+
+Notes:
+* trying import statements at default value instantiation
