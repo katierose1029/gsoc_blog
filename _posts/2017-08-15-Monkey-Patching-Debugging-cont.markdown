@@ -334,3 +334,11 @@ self.clipbox = Bbox_clipbox
     * the definition line for this function needed `transform=None`
 
 * Now I have an issues with `sticky_edges` in that I need to find a way to name the attributes of `traitlets.Tuple`
+~~~
+_XYPair = namedtuple("_XYPair", "x y")
+sticky_edges = _XYPair([],[])
+~~~
+* this is the same sticky_edges as in the base `Artist` module
+
+**Tried to draw an image and it did not work fully but I got a figure up**
+**Update I drew a figure**
