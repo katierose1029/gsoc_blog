@@ -98,5 +98,4 @@ markevery=None
 
 **kwargs
     Not sure how to go about **kwargs in terms of traits
-
 ~~~
