@@ -43,7 +43,7 @@ invalidx=Bool(default_value=True)
 invalidy=Bool(default_value=True)
 
 
-
+# for x, y, & xy I am not sure if these following lines of code are correct, I may just leave them alone come testing time
 # x = None
 x=Instance('numpy.asarray', allow_none=True,default_value=None) # not sure on this line
 # y = None
@@ -52,9 +52,13 @@ y=Instance('numpy.asarray', allow_none=True,default_value=None) # not sure on th
 
 
 # path = None
+path=Instance('matplotlib.path.Path', allow_none=True, default_value=None)
 # transformed_path = None
+transformed_path=Instance('matplotlib.transforms.TransformedPath', allow_none=True, default_value=None)
 # subslice = False
+subslice=Bool(default_value=False)
 # x_filled = None # used in subslicing; only x is needed
+x_filled=Instance('np.array', allow_none=True, default_value=None)
 # set_data(xdata, ydata)
 
 scaled dash + offset
