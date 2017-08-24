@@ -61,11 +61,14 @@ subslice=Bool(default_value=False)
 x_filled=Instance('np.array', allow_none=True, default_value=None)
 # set_data(xdata, ydata)
 
-scaled dash + offset
-dashSeq = None
-dashOffset = 0
-unscaled dash + offset
-this is needed scaling the dash pattern by linewidth
-us_dashSeq = None
-us_dashOffset = 0
+# scaled dash + offset
+# dashSeq = None
+
+# dashOffset = 0
+dashOffset=Int(allow_none=True, default_value=None)
+# unscaled dash + offset
+# this is needed scaling the dash pattern by linewidth
+# us_dashSeq = None
+# us_dashOffset = 0
+us_dashOffset=Int(allow_none=True, default_value=None)
 ~~~
