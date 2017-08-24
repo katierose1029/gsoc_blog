@@ -9,7 +9,7 @@ Tasks for 8/23/17:
 1. refactor `matplotlib.lines.Line2D`
     * look at previous notes
 
-All Attributes:
+Attributes Notes:
     * Note not all of these will be used but these are from original `__init__` function
 
 ~~~
