@@ -57,3 +57,27 @@ def _linestyle_validate(self, proposal):
             return proposal.value
     # return proposal.value
 ~~~
+
+**Keep in mind after placing in the code block above I had an idea to comment out all default values unless default values need to be declared in a function**
+
+**Note: I forgot to place these lines of code in the modules yesterday**
+~~~
+# dashOffset = 0
+dashOffset=Int(allow_none=True, default_value=None)
+# unscaled dash + offset
+# this is needed scaling the dash pattern by linewidth
+# us_dashSeq = None
+# us_dashOffset = 0
+us_dashOffset=Int(allow_none=True, default_value=None)
+~~~
+
+Not only am I thinking of how to deal with these but I am also taking function from `matplotlib.lines.Line2D` and determining which one will be used.
+    * no get/set function from the obj itself
+
+**needs to go in observe functions**
+~~~
+self.stale = True
+print("set stale: %r" % self.stale)
+~~~
+
+**Do I need an markeredgecolor?**
