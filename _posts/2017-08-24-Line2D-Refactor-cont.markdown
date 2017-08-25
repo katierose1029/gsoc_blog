@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Line2D Refactor"
-date: 2017-08-23
+date: 2017-08-24
 categories: jekyll update
 ---
 
-Tasks for 8/23/17:
+Tasks for 8/24/17:
 1. refactor `matplotlib.lines.Line2D`
     * look at previous notes
 
