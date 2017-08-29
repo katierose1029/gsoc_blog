@@ -9,6 +9,8 @@ categories: jekyll update
 
 [https://github.com/katierose1029/matplotlib/tree/artist-traitlets-dev][https://github.com/katierose1029/matplotlib/tree/artist-traitlets-dev]
 
+*My work can be found in the directory `matplotlib/lib/_traits`*
+
 ________________________________________________________________________________
 
 **The following links lead to the pull requests I made with the following branches I created in my fork of `matplotlib`**
