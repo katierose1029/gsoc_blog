@@ -6,6 +6,7 @@ categories: jekyll update
 ---
 
 **This following link will lead to my fork of `matplotlib`.  In this fork, I worked mainly from one branch off of the `origin/master` called `artist-traitlets-dev`.  After accomplishing one goal, I created a second branch called `line2D-traitlets-dev`.**
+
 [https://github.com/katierose1029/matplotlib/tree/artist-traitlets-dev][https://github.com/katierose1029/matplotlib/tree/artist-traitlets-dev]
 
 **The following links lead to the pull requests I made with the following branches I created in my fork of `matplotlib`**
@@ -19,6 +20,7 @@ categories: jekyll update
 
 
 **This repository was used when I was introduced to the materials/toolkits needed in order to accomplish my goals.  Also I used this repository for scrap code that I did not need at a certain moment but may have needed in the future.**
+
 [gsoc_work][gsoc]
 
 [https://github.com/katierose1029/matplotlib/tree/artist-traitlets-dev]:https://github.com/katierose1029/matplotlib/tree/artist-traitlets-dev
