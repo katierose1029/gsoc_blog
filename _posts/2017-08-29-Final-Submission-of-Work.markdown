@@ -9,7 +9,7 @@ categories: jekyll update
 
 [https://github.com/katierose1029/matplotlib/tree/artist-traitlets-dev][https://github.com/katierose1029/matplotlib/tree/artist-traitlets-dev]
 
-*My work can be found in the directory `matplotlib/lib/_traits`*
+*My work can be found in the directory `matplotlib/lib/matplotlib/_traits`*
 
 ________________________________________________________________________________
 
