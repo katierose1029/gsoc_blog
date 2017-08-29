@@ -5,7 +5,7 @@ date: 2017-08-29
 categories: jekyll update
 ---
 
-**This following link will lead to my fork of `matplotlib`.  In this fork, I worked mainly from one branch off of the `origin/master` called `artist-traitlets-dev`.  After accomplishing one goal, I created a second branch called `line2D-traitlets-dev`.**
+**The following link will lead to my fork of `matplotlib` branch `artist-traitlets-dev`.  This was the main branch used towards contributions to matplotlib**
 
 [https://github.com/katierose1029/matplotlib/tree/artist-traitlets-dev][https://github.com/katierose1029/matplotlib/tree/artist-traitlets-dev]
 
@@ -13,7 +13,7 @@ categories: jekyll update
 
 ________________________________________________________________________________
 
-**The following links lead to the pull requests I made with the following branches I created in my fork of `matplotlib`**
+**The following links lead to the pull requests I made**
 1. [created new branch and added `_traits` directory with artist.py and tra…][8917]
     * This was the main branch/pull request that displays the process in which I refactored `matplotlib.artist.Artist` in terms of `traitlets`
     * If you review my previous blog posts, you will see that this task was the main focus; and I was successful in completing this.
