@@ -26,7 +26,6 @@ ________________________________________________________________________________
 
 [gsoc_work][gsoc]
 
-________________________________________________________________________________
 [https://github.com/katierose1029/matplotlib/tree/artist-traitlets-dev]:https://github.com/katierose1029/matplotlib/tree/artist-traitlets-dev
 [8917]:https://github.com/matplotlib/matplotlib/pull/8917
 [9058]:https://github.com/matplotlib/matplotlib/pull/9058
