@@ -1,4 +1,23 @@
+title: Kaitlyn Chait's Blog
+email: katiec1029@gmail.com
+# description: > # this means to ignore newlines until "baseurl:"
+#   So I was instructed to write a cool description of my website here.
+#   This site is being used to blogging my progress throughout the duration of
+#   my research with NUMFocus.  If you find Matplotlib Serialization as cool as
+#   I do, I would like to welcome you to my site and instruct you continue
+  # reading.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: katierose1029
+github_username:  katierose1029
+
+# Build settings
 markdown: kramdown
-highlighter: pygments
-permalink: none
-exclude: ['Rakefile', 'README.textile', 'config.rb', 'CNAME']
+kramdown:
+    input: GFM
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
