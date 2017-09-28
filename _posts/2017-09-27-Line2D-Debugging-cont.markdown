@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Line2D Debugging"
+title: "Line2D Debugging cont."
 date: 2017-09-27
 categories: jekyll update
 ---
@@ -25,3 +25,8 @@ plt.show()
     * runs faster
     * commented out observe functions not needed because only print statement
         * any observe function that altered the value of stale did not change
+
+There is a `None` problem with `Line2D.path`, I have an idea on how to go about it
+    * and apparently I forgot to import `traitlets.default`
+    * commented out path as a trait and created variable path
+        * set to None
