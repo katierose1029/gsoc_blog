@@ -8,6 +8,8 @@ categories: jekyll update
 Tasks for 10/03/17:
 1. Determine why `None` is being returned at the point in which it is?
 2. update Professor on status
+3. Python Debugging (open source)
+4. Paul update `figure-traitlets-dev` branch 
 
 Professor Weekly Status Report:
     * None error in debugging `matplotlib._traits.lines.Line2D`
