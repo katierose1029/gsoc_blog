@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GSOC Proposal
-permalink: /about/
+permalink: /gsoc_proposal/
 ---
 ## Contents
     1. Opening Details
