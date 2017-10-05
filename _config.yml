@@ -1,0 +1,2 @@
+baseurl: /matplotlib_work_blog
+exclude: ['README.md']
