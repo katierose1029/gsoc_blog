@@ -7,7 +7,7 @@ author: Kaitlyn Chait
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
 
-twitter_username: katierose1029@
+twitter_username: katierose1029
 github_username:  katierose1029
 
 # Minima date format
@@ -17,8 +17,10 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.html
+# header_pages:
+# - /gsoc_proposal/index.html
+# - /MEP25/index.html
+
 
 # Build settings
 markdown: kramdown

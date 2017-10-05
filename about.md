@@ -1,9 +1,8 @@
 ---
 layout: page
-title: MEP25: Serialization
-permalink: /about/
+title: MEP25 Serialization
+permalink: /MEP25/
 ---
-________________________________________________________________________________
 .. contents:: Table of Contents
 
 .. author:: Andrew Seier
