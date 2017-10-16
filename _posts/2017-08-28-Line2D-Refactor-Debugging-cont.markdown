@@ -5,7 +5,7 @@ date: 2017-08-28
 categories: jekyll update
 ---
 
-Tasks for 8/25/17:
+Tasks for 8/28/17:
 1. refactor & debugging `matplotlib.lines.Line2D`
 2. GSOC Final Evaluation
     * Final work has to be handed in by tomorrow
