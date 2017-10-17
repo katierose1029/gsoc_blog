@@ -18,6 +18,8 @@ This error has been reoccurring and I think I have an idea on how to get it fixe
 **Speculation**: What if the way `Line2D` is being called in other modules affecting my implementation?
     * Checked `pyplot.py` and I have confirmed that `_traits.lines.Line2D` was imported properly
     * To answer my question, I will be looking through all other modules in MPL.
+    * Note 1: as I was going through the modules, I found that `fiance.py` contained some instances of `Line2D` are instantiated however I do not think they affect what I am trying to accomplish
+
 
 From `axis.py`:
 ~~~
