@@ -14,10 +14,11 @@ Notes for Meeting:
 * Debugging is not complete
 * Figure has been drawn with no line
 * mention lambda error
-*
 
-Trying out new testing code 
+
+Trying out new testing code:
 ~~~
+import matplotlib
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib._traits.artist import Artist
@@ -26,4 +27,17 @@ from matplotlib._traits.lines import Line2D
 x = np.arange(0, 5, 0.1);
 y = np.sin(x)
 plt.plot(x, y)
+~~~
+
+For science, I am determining whether or not `Path` has a default value
+~~~
+In [1]: from matplotlib.path import Path
+
+In [2]: p = Path()
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-2-c0d85f7e4728> in <module>()
+----> 1 p = Path()
+
+TypeError: __init__() missing 1 required positional argument: 'vertices'
 ~~~
