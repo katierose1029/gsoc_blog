@@ -10,4 +10,7 @@ Tasks for 10/19/17:
     * look at notes from last posts
 
 [Unpacking Argument Lists][ual]
+
+
+
 [ual]:https://docs.python.org/3/tutorial/controlflow.html#unpacking-argument-lists
