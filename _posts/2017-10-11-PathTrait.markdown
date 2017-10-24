@@ -24,6 +24,7 @@ class PathTrait(TraitType):
 
 Code to be tested:
 1. `matplotlib._traits.traits`
+
 ~~~
 class PathTrait(TraitType):
     #TODO: assure that an instance of path is being passed.
@@ -40,6 +41,7 @@ class PathTrait(TraitType):
 ~~~
 
 2. `matplotlib._traits.lines`
+
 ~~~
 path = PathTrait(allow_none=False, default_value=Path([(0.0,0.0),(1.0,0.0),(1.0,1.0),(1.0,0.0)]))
 
