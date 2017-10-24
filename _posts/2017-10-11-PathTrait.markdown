@@ -46,7 +46,6 @@ path = PathTrait(allow_none=False, default_value=Path([(0.0,0.0),(1.0,0.0),(1.0,
 def _path_validate(self, proposal):
     # print("path: cross validating %r" % proposal.value)
     return proposal.value
-
 ~~~
 
 
