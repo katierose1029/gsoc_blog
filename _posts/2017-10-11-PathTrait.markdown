@@ -38,6 +38,7 @@ class PathTrait(TraitType):
         if isinstance(value, Path):
             return value
 ~~~
+
 2. `matplotlib._traits.lines`
 ~~~
 path = PathTrait(allow_none=False, default_value=Path([(0.0,0.0),(1.0,0.0),(1.0,1.0),(1.0,0.0)]))

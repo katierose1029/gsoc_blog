@@ -84,10 +84,10 @@ print("line.ydata", line.ydata)
 **I am attempting to create xdata & ydata as traits.Type**
 
 **trying to figure out where xorig came from**
-    * not in base lines class
+* not in base lines class
 
 **also I cleaned up code:**
-    * got rid of default & observe functions I did not need
+* got rid of default & observe functions I did not need
 
 ~~~
 In [1]: from matplotlib._traits.lines import Line2D

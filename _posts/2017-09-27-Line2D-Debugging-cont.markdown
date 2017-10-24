@@ -27,6 +27,6 @@ plt.show()
         * any observe function that altered the value of stale did not change
 
 There is a `None` problem with `Line2D.path`, I have an idea on how to go about it
-    * and apparently I forgot to import `traitlets.default`
-    * commented out path as a trait and created variable path
-        * set to None
+* and apparently I forgot to import `traitlets.default`
+* commented out path as a trait and created variable path
+    * set to None
