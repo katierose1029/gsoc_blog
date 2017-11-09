@@ -29,6 +29,41 @@ class TransformedPathTrait(TraitType):
 ~~~
 #from _traits.lines.py
 
-#line
+#line 34
+from .traits import PathTrait, TransformedPathTrait
 
+#lines 322-324
+# transformed_path=Instance('matplotlib.transforms.TransformedPath', allow_none=True) #default_value set in default function
+# TransformedPath(path, self.get_transform())
+transformed_path=TransformedPathTrait(allow_none=False) #TODO: assure this works
+
+#lines 705-713
+#transformed default
+@default("transformed_path")
+def _transformed_path_default(self):
+    from matplotlib.transforms import TransformedPath
+    return TransformedPath(self.path, self.get_transform())
+#transformed_path validate
+@validate("transformed_path")
+def _transformed_path_validate(self, proposal):
+    return proposal.value
+~~~
+
+This is currently not working, but I am working on getting it to work.
+The error appears to be a `None` error.
+
+Current Error:
+~~~
+File "/Users/KaitlynChait/Desktop/matplotlib/lib/matplotlib/_traits/lines.py", line 945, in draw
+    tpath, affine = transf_path.get_transformed_path_and_affine()
+AttributeError: 'NoneType' object has no attribute 'get_transformed_path_and_affine'
+~~~
+
+
+Testing `isinstance()` in `_traits.lines.py`:
+~~~
+isinstance(path, Path): False
+isinstance(path, PathTrait): True
+isinstance(transformed_path, TransformedPath): False
+isinstance(transformed_path, TransformedPathTrait): True
 ~~~
