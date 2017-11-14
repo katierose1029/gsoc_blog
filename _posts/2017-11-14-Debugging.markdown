@@ -74,12 +74,8 @@ To show some of my work, here is the commit I pushed while writing this report:
 I apologize for not being able to make it to the meeting this week, but I hope
 this written report will answer the question: What did I accomplish this week?
 
-And as always, you can see my progress on my site:
-
-[https://katierose1029.github.io/matplotlib_work_blog][site]
 
 
 [commitline2d]:https://github.com/katierose1029/matplotlib/commit/c86a58fa05ca040a8bed35197462f1e1a03e0aed
 [colors]:https://github.com/katierose1029/matplotlib/blob/master/lib/matplotlib/colors.py
 [commitdebuggingfacecolor]:https://github.com/katierose1029/matplotlib/commit/a864143d18f9e531acced638054e180a92e35962
-[site]:https://katierose1029.github.io/matplotlib_work_blog
