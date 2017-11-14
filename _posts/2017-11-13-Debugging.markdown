@@ -1,33 +1,36 @@
 ---
 layout: post
-title: "TransformedPath Trait cont."
-date: 2017-11-09
+title: "Debugging"
+date: 2017-11-13
 categories: jekyll update
 ---
 
-Tasks for 11/09/17:
+Tasks for 11/13/17:
 1. debugging `matplotlib.lines.Line2D`
     * look at notes from last posts
-2. Create a `TransformedPathTrait` to be used as `transformed_path` attribute in `Line2D`
 
-
-Tester Lines Output:
+Current Error:
 ~~~
-isinstance(proposal.value, Path): True
-isinstance(proposal.value, TransformedPath): True
-_traits/lines.py line 925 self.transformed_path:  <matplotlib.transforms.TransformedPath object at 0x1193d5f98>
-_traits/lines.py line 929 transf_path:  <matplotlib.transforms.TransformedPath object at 0x1193d5f98>
-~~~
-
-
-Error Currently Working On:
-~~~
-self.markerfacecolor:  None
+In [1]: import matplotlib
+   ...: from matplotlib._traits.artist import Artist
+   ...: from matplotlib._traits.lines import Line2D
+   ...: import numpy as np
+   ...: import matplotlib.pyplot as plt
+   ...: plt.plot([4, 3, 2, 1])
+   ...: plt.ylabel('some numbers')
+   ...: plt.show()
+a:  <matplotlib.artist.Artist object at 0x1096d3898>
+color:  <traitlets.traitlets.Unicode object at 0x1095bc2b0>
+_traits/lines.py line 925 self.transformed_path:  <matplotlib.transforms.TransformedPath object at 0x109dbe240>
+_traits/lines.py line 929 transf_path:  <matplotlib.transforms.TransformedPath object at 0x109dbe240>
+self.marker:  None
+self.markersize:  6.0
+facecolor:
 Exception in Tkinter callback
 Traceback (most recent call last):
   File "/Users/KaitlynChait/Desktop/matplotlib/lib/matplotlib/colors.py", line 142, in to_rgba
     rgba = _colors_full_map.cache[c, alpha]
-KeyError: (None, None)
+KeyError: ('', None)
 
 During handling of the above exception, another exception occurred:
 
@@ -62,22 +65,13 @@ Traceback (most recent call last):
     self.tick1line.draw(renderer)
   File "/Users/KaitlynChait/Desktop/matplotlib/lib/matplotlib/_traits/artist.py", line 66, in draw_wrapper
     return draw(artist, renderer, *args, **kwargs)
-  File "/Users/KaitlynChait/Desktop/matplotlib/lib/matplotlib/_traits/lines.py", line 1017, in draw
+  File "/Users/KaitlynChait/Desktop/matplotlib/lib/matplotlib/_traits/lines.py", line 1019, in draw
     rgbaFace = self._get_rgba_face()
-  File "/Users/KaitlynChait/Desktop/matplotlib/lib/matplotlib/_traits/lines.py", line 1168, in _get_rgba_face
+  File "/Users/KaitlynChait/Desktop/matplotlib/lib/matplotlib/_traits/lines.py", line 1169, in _get_rgba_face
     rgbaFace = mcolors.to_rgba(facecolor, self.alpha)
   File "/Users/KaitlynChait/Desktop/matplotlib/lib/matplotlib/colors.py", line 144, in to_rgba
     rgba = _to_rgba_no_colorcycle(c, alpha)
-  File "/Users/KaitlynChait/Desktop/matplotlib/lib/matplotlib/colors.py", line 195, in _to_rgba_no_colorcycle
+  File "/Users/KaitlynChait/Desktop/matplotlib/lib/matplotlib/colors.py", line 188, in _to_rgba_no_colorcycle
     raise ValueError("Invalid RGBA argument: {!r}".format(orig_c))
-ValueError: Invalid RGBA argument: None
+ValueError: Invalid RGBA argument: ''\
 ~~~
-
-
-Let's see if this works:
-~~~
-color=Union([Unicode(), Float(), Tuple()], allow_none=False, default_value='C0')
-~~~
-
-To tackle the `None` problems I've been having; `allow_none=True` were all switched to `allow_none=False`
-- I will not allow falsehood in this code
